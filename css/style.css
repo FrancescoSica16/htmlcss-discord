@@ -14,6 +14,11 @@ header{
     padding-top: 15px;
 
 }
+
+footer{
+    background-color: rgb(28, 31, 34);
+    height: 300px;
+}
 body{
     font-family:Arial;
 }
@@ -31,10 +36,9 @@ ul {
     list-style-type: none;
   }
 
-li{
+.topbar li{
     display: inline-block;
 }
-
 
 .topbar{
     position: relative;
@@ -135,25 +139,44 @@ nav li:hover{
    margin: 0 auto;
 }
 
-float-l{
+.float-l{
     float: left;
 }
 
-clearfix::after{
+.clearfix::after{
         content: "";
         display: table;
         clear: both;
 }
 
 .disclaimer{
-    margin-top: 40px;
-    height: 500px;
+    padding-top: 70px;
+    margin-bottom: 40px;
+
 }
 
 .img-disclaimer{
-    width: 40%;
+    width: 60%;
 }
 
 .text-disclaimer{
-    width: 50%;
+    width: 40%;
+    padding-top: 33px ;
+    padding-left: 140px;
+    padding-right: 80px;
+}
+.text-disclaimer h2{
+    font-size: 30px;
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+.footer-social{
+    width: 36%;
+    background-color: lime;
+}
+
+.footer-list{
+    width: 16%;
+    background-color: magenta;
 }
